@@ -1,0 +1,178 @@
+# Agentic Project Template - .gitignore
+
+# ============================================================================
+# Generated Artifacts (can be regenerated from sources)
+# ============================================================================
+artifacts/data/
+artifacts/deliverables/
+artifacts/knowledge-graph/
+artifacts/reports/
+
+# Keep directory structure
+!artifacts/data/.gitkeep
+!artifacts/deliverables/.gitkeep
+!artifacts/knowledge-graph/.gitkeep
+!artifacts/reports/.gitkeep
+
+# ============================================================================
+# External Integrations (symbolic links)
+# ============================================================================
+
+# NotebookLM
+notebooklm/notebooks/
+notebooklm/**/*.md
+notebooklm/**/*.mp3
+notebooklm/**/*.pdf
+!notebooklm/README.md
+!notebooklm/.gitignore
+
+# Google Docs/Drive
+gdocs/drive/
+gdocs/sync/
+gdocs/**/*.gdoc
+gdocs/**/*.gsheet
+gdocs/**/*.gslides
+gdocs/exports/**/*.pdf
+gdocs/exports/**/*.docx
+gdocs/exports/**/*.xlsx
+!gdocs/README.md
+!gdocs/.gitignore
+!gdocs/exports/.gitkeep
+
+# ============================================================================
+# Build Outputs
+# ============================================================================
+
+# Website
+website/build/
+website/dist/
+website/.next/
+website/out/
+website/node_modules/
+
+# LaTeX
+tex/**/*.aux
+tex/**/*.log
+tex/**/*.out
+tex/**/*.toc
+tex/**/*.bbl
+tex/**/*.blg
+tex/**/*.synctex.gz
+tex/**/*.fdb_latexmk
+tex/**/*.fls
+
+# Keep PDFs (or comment out if you don't want to track)
+# tex/**/*.pdf
+
+# ============================================================================
+# Dependencies
+# ============================================================================
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================================
+# IDE & Editor
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# OS Files
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+
+# General
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Logs
+*.log
+logs/
+
+# ============================================================================
+# Secrets & Config
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API keys
+*.key
+*.pem
+secrets/
+credentials/
+
+# ============================================================================
+# Large Files (consider using Git LFS)
+# ============================================================================
+
+# Uncomment if not using Git LFS
+# *.mp4
+# *.mov
+# *.avi
+# *.zip
+# *.tar.gz
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+# Add your project-specific ignores here
