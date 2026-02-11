@@ -1,0 +1,7 @@
+title: Agentic Project Template
+description: A comprehensive template for document-centric, agent-driven collaborative projects with Claude
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+show_downloads: true
