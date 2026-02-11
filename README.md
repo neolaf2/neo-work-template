@@ -143,7 +143,7 @@ your-project/
 ```bash
 # Click "Use this template" button on GitHub
 # Or clone:
-git clone https://github.com/YOUR-USERNAME/agentic-project-template.git my-project
+git clone https://github.com/neolaf2/neo-work-template.git my-project
 cd my-project
 ```
 
@@ -151,7 +151,7 @@ cd my-project
 ```bash
 # Download and extract
 cd ~/Documents/myWork
-git clone <this-repo-url> my-project
+git clone https://github.com/neolaf2/neo-work-template.git my-project
 cd my-project
 ```
 
@@ -662,7 +662,7 @@ MIT License - Feel free to use for any purpose
 
 ## 🙏 Credits
 
-This template was created based on the real-world implementation of the SIAS Elite 20 AI+X program, demonstrating effective document-centric, agent-driven project management.
+This template was created by Richard Tong, based on the real-world implementation of the SIAS Elite 20 AI+X program, demonstrating effective document-centric, agent-driven project management.
 
 ---
 
@@ -678,12 +678,12 @@ This template was created based on the real-world implementation of the SIAS Eli
 
 ## 📮 Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR-USERNAME/agentic-project-template/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR-USERNAME/agentic-project-template/discussions)
+- **Issues:** [GitHub Issues](https://github.com/neolaf2/neo-work-template/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/neolaf2/neo-work-template/discussions)
 - **Examples:** See `examples/` directory
 
 ---
 
 **Version:** 1.0.0
 **Last Updated:** 2026-02-11
-**Maintained By:** [Your Name/Organization]
+**Maintained By:** Richard Tong
